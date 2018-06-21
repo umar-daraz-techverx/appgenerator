@@ -1,0 +1,34 @@
+{
+  "cordova-plugin-whitelist": {
+    "source": {
+      "type": "local",
+      "path": "C:\\cordova\\appgenerator\\node_modules\\cordova-plugin-whitelist"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-app-version": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-app-version@^0.1.9"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-x-socialsharing": {
+    "source": {
+      "type": "registry",
+      "id": "https://github.com/EddyVerbruggen/SocialSharing-PhoneGap-Plugin.git"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "es6-promise-plugin": {
+    "source": {
+      "type": "registry",
+      "id": "es6-promise-plugin@^4.1.0"
+    },
+    "is_top_level": false,
+    "variables": {}
+  }
+}
