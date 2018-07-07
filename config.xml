@@ -1,10 +1,10 @@
 <? xml version="1.0" encoding="UTF-8" ?>
-<widget xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns="http://www.w3.org/ns/widgets" version="1.0.1" id="com.test.xyz"> 
+<widget xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns="http://www.w3.org/ns/widgets" version="1.1.1" id="com.test.xyz"> 
  <name> test</name> 
 <description></description> 
-<icon src= "http://localhost:14498/Content/AppImages/appIcon/636665782124986823_1.jpg"/> 
-<splash height="480" src="http://localhost:14498/Content/AppImages/AppSplashScreen/636665782125092590_1.jpg" width="320"/> 
-<logo src="http://localhost:14498/Content/AppImages/AppLogo/636665782125199179_1.jpg" /> 
+<icon src= "http://localhost:14498/Content/AppImages/appIcon/636665785315496654_1.jpg"/> 
+<splash height="480" src="http://localhost:14498/Content/AppImages/AppSplashScreen/636665785316148001_1.jpg" width="320"/> 
+<logo src="http://localhost:14498/Content/AppImages/AppLogo/636665785316286382_1.jpg" /> 
 <engine name="android" spec="7.0.0"/> 
 <author href="http://cordova.io" email="umardraz651@gmail.com"> ICT Team</ author> 
 <content src="index.html" /><access origin="*"/> 
@@ -16,11 +16,11 @@
 <allow-intent href="geo:*" /> 
 <platform name="android"> 
 <allow-intent href="market:*"/> 
-</platform> 
+<platform> 
 <platform name="ios"> 
 <allow-intent href="itms:*"/> 
 <allow-intent href="itms-apps:*"/> 
 </platform> 
-<engine name="android" spec ="^7.0.0" /> 
+<engine name="android" spec="^7.0.0"/> 
 <plugin name="cordova-plugin-whitelist" spec="^1.3.3"/> 
 </widget>
