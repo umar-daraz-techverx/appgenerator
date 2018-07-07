@@ -7,16 +7,18 @@
 <logo src="http://localhost:14498/Content/AppImages/AppLogo/636665785316286382_1.jpg" /> 
 <engine name="android" spec="7.0.0"/> 
 <author href="http://cordova.io" email="umardraz651@gmail.com"> ICT Team</ author> 
-<content src="index.html" /><access origin="*"/> 
+<content src="index.html" />
+<access origin="*"/> 
 <allow - intent href="http://*/* " />
 <allow-intent href="https://*/*" /> 
 <allow-intent href="tel:*"/> 
 <allow-intent href="sms:*" /> 
 <allow-intent href="mailto:*" /> 
 <allow-intent href="geo:*" /> 
-<platform name="android"> 
+
 <allow-intent href="market:*"/> 
 <platform> 
+ <platform name="android"> 
 <platform name="ios"> 
 <allow-intent href="itms:*"/> 
 <allow-intent href="itms-apps:*"/> 
