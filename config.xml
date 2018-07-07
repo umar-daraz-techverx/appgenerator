@@ -5,6 +5,8 @@
   
   <icon src="/Content/AppImages/appIcon/636665731983472890_1.jpg" />
  <splash height="480" src="/Content/AppImages/AppSplashScreen/636665731983582265_1.jpg" width="320" />
+  <logo src ="/Content/AppImages/AppLogo/636665731983652069_1.jpg" />
+  <engine name="android" spec="7.0.0" />
  
  <author href="http://cordova.io" email="dev@cordova.apache.org"> Apache Cordova Team </author> 
 <content src="index.html"/> 
