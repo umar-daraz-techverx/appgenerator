@@ -12,9 +12,8 @@
 <allow-intent href="market:*"/> 
  </platform ><platform name ="ios" ><allow-intent href="itms:*"/> 
 <allow-intent href="itms-apps:*"/> 
- </platform><icon src="http://localhost:14498/Content/AppImages/appIcon/636665756962733586_1.jpg"/> 
-<splash height="480" src="http://localhost:14498/Content/AppImages/AppSplashScreen/636665756962853271_1.png" width="320" /> 
- <logo src ="http://localhost:14498/Content/AppImages/AppLogo/636665756962883265_1.jpg"/> 
+ </platform>
+  
 <engine name="android" spec="7.0.0" /> 
  <plugin name="cordova - plugin - whitelist" spec="file: plugins / cordova - plugin - whitelist"/> 
 <plugin name="cordova-plugin-app-version" spec=" ^ 0.1.9" /> 
